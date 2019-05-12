@@ -6,7 +6,11 @@ import Image from "./images/webpack.png";
 import "./index.css";
 // import './index.less'
 import rook from "utils-pro";
-import { getOS } from "utils-pro";
+// import { getOS } from "utils-pro";
+// import getOS from "utils-pro/lib/getOS";
+
+// const rook = require("utils-pro");
+const { getOS } = require("utils-pro");
 // const getOS = require("utils-pro/lib/getOS");
 
 console.log(111111, getOS());
